@@ -1,0 +1,317 @@
+html {
+  margin: 0 auto;
+  background-color: white;
+  background-attachment: fixed;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+body {
+  font-family: Play;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+}
+
+header {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  width: 1200px;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: black;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  margin-right: 40%;
+}
+
+nav a {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 0 0px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.Padding {
+  padding-top: 100px;
+  width: 1200px;
+}
+
+.BigBox {
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.MediumBox1 {
+  width: 48%;
+  height: 590px;
+  border-radius: 5px;
+  padding: 0 0 0 0;
+  position: absolute;
+  overflow: hidden;
+  background-image: url("images/fond_medium.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MediumBox1:hover {
+  /*background-size: 110%;*/
+  opacity: 90%;
+}
+
+.MediumBox1 .imgcasque1 {
+  position: absolute;
+  bottom: 100px;
+  right: 180px;
+  width: 200px;
+  height: 125px;
+}
+
+.MediumBox1 .imgcasque3 {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  width: 150px;
+  height: 112.5px;
+}
+
+.MediumBox1 .imgcasque4 {
+  position: absolute;
+  bottom: 150px;
+  right: 20px;
+  width: 180px;
+  height: 120px;
+}
+
+.MediumBox1 .texte {
+  position: absolute;
+  width: 548px;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.texte {
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-family: Play;
+}
+
+.texte2 {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.MediumBox2 {
+  width: 48%;
+  height: 590px;
+  border-radius: 5px;
+  padding: 0 0 0 0;
+  position: absolute;
+}
+
+.Lilbox {
+  width: 48%;
+  height: 48%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.Lilbox .googleglasses {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 200px;
+  height: 160px;
+}
+
+.Lilbox .texte2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding-top: 90px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.Lilbox .applevision {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 200px;
+  height: 160px;
+}
+
+.texte3 {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  font-size: 20px;
+}
+
+.Lilbox .hololens {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 275px;
+  height: 160px;
+}
+
+.img1 {
+  background-image: url("images/fondlil.png");
+}
+
+.img2 {
+  background-image: url("images/fondlil.png");
+}
+
+.img3 {
+  background-image: url("images/fondlil.png");
+}
+
+.img4 {
+  background-image: url("images/fondlil.png");
+}
+
+.Lilbox:hover {
+  background-size: 110%;
+}
+
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.top-right {
+  top: 5px;
+  right: 5px;
+}
+
+.bottom-left {
+  bottom: 5px;
+  left: 5px;
+}
+
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+}
+
+.line1 {
+  width: 1200px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  background-image: url("images/logo.png");
+  background-size: 100% 100%;
+  background-position: center;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: white;
+  color: black;
+  display: flex;
+  width: 1200px;
+  border-radius: 50px;
+  height: 50px;
+  align-items: center;
+}
+
+nav1 {
+  width: 450px;
+  display: flex;
+  padding: 10px;
+  padding-left: 10px;
+  margin-left: 10%;
+}
+
+nav1 a {
+  color: #050505;
+  text-decoration: none;
+  padding: 5px 5px;
+  margin: 0 5px;
+  align-items: center;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav1 a:hover {
+  text-decoration: underline;
+}
+
+nav2 {
+  width: 490px;
+  display: flex;
+  padding-left: 20px;
+  margin-left: 180px;
+}
+
+nav2 a {
+  color: #050505;
+  text-decoration: none;
+  padding: 5px 5px;
+  align-items: center;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav2 a:hover {
+  text-decoration: underline;
+}
+
+nav2 a img {
+  height: 40px;
+  width: 40px;
+}
+
+nav2 a oui {
+  width: 330px;
+  height: 20px;
+  text-align: center;
+
+}
+
+.oui {
+  padding-top: 15px;
+}
